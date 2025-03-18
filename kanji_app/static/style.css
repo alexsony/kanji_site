@@ -1,0 +1,271 @@
+/* 🌸 General Styling */
+body {
+    background: url('/static/images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #4a154b; /* Deep pinkish-purple for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* 🌸 Title Styling */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff4081;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    display: block;
+    border-radius: 15px;
+    border: 3px solid #ff80ab;
+    padding: 15px 30px;
+}
+
+/* 🌸 Floating Sakura Animation */
+@keyframes floating {
+    0% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(10px) rotate(3deg); }
+    100% { transform: translateY(0px) rotate(0deg); }
+}
+
+h1::after {
+    content: " 🌸";
+    display: inline-block;
+    animation: floating 2s infinite ease-in-out;
+}
+
+#score {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: white;
+    background: #ff4081; /* Sakura Pink */
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    width: fit-content;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    border: 2px solid #ff80ab; /* Lighter pink border */
+}
+
+/* 🌸 Filters - Align Right */
+#filters-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 160px; /* Ensure proper width */
+}
+
+/* 🌸 Filter Labels */
+.filter-label {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between checkbox and text */
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ff4081;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* 🌸 Checkboxes */
+.filter-label input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #ff4081; /* Pink checkboxes */
+}
+
+/* 🌸 Apply Filters Button */
+#apply-filters {
+    background-color: #ff4081;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 15px;
+    border: none;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#apply-filters:hover {
+    background-color: #d63384;
+}
+
+/* 🌸 Kanji Card Styling */
+.kanji {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ff4081; /* Sakura pink */
+}
+
+/* 🌸 Card Styling */
+.card {
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency for readability */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ff80ab; /* Light pink border */
+    text-align: center;
+}
+
+/* 🌸 Kanji Container */
+#words-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    text-align: center;
+}
+
+/* 🌸 Input Field */
+#user-input {
+    text-align: center;
+    font-size: 1.2rem;
+    border: 2px solid #ff80ab;
+    border-radius: 8px;
+    padding: 8px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* 🌸 Submit Button */
+.btn-success {
+    background-color: #ff4081; /* Bright pink */
+    border: none;
+    font-weight: bold;
+}
+
+.btn-success:hover {
+    background-color: #d63384; /* Darker pink */
+}
+
+/* 🌸 Responsive Design */
+@media (max-width: 768px) {
+    .kanji {
+        font-size: 3rem;
+    }
+    .card {
+        padding: 15px;
+    }
+    #user-input {
+        font-size: 1rem;
+    }
+}
+
+/* 🌸 Centering Kanji Card */
+.kanji-card {
+    width: 300px; /* Adjust as needed */
+    max-width: 100%;
+    margin: 10px auto; /* Centers the card */
+    text-align: center;
+}
+
+/* 🌸 Completion Message Card */
+#completion-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Moves text towards the top */
+    align-items: center;
+    text-align: center;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+
+    background: url('/static/images/completion-bg.jpg') no-repeat center center;
+    background-size: cover;
+
+    width: 400px;
+    height: 250px;
+
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border: 3px solid #ff80ab;
+
+    padding-top: 10px; /* Moves text higher */
+    
+    /* ✅ Forces absolute centering */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Perfect centering */
+}
+
+/* 🌸 Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translate(-50%, -60%); }
+    to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+.completion-message {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+
+/* 🌸 Initially hidden */
+.reading {
+    display: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff4081;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap; /* Prevents breaking */
+}
+
+/* 🌸 Bigger eye icon */
+.reading-icon {
+    font-size: 2rem; /* Increased size */
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+    display: inline-block;
+    width: 2rem; /* Ensures proper alignment */
+    text-align: center;
+    position: relative;
+}
+
+/* 🌸 Ensure proper inline placement */
+.reading-container {
+    display: inline-block;
+    position: relative;
+    width: 2rem; /* Matches the icon width */
+    height: 2rem;
+    text-align: center;
+}
+
+/* 🌸 Hover effect: Replaces the eye icon with centered text */
+.reading-container:hover .reading-icon {
+    visibility: hidden; /* Keeps space without collapsing */
+}
+
+.reading-container:hover .reading {
+    display: inline-block; /* Now properly replaces the icon */
+}
+
+#progress-counter {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff4081;
+    border: 2px solid #ff80ab;
+}

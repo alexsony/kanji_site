@@ -1,0 +1,72 @@
+[
+    { "kanji": "あい", "romaji": "A I", "english": "love" },
+    { "kanji": "いい", "romaji": "I I", "english": "good" },
+    { "kanji": "うえ", "romaji": "U E", "english": "above" },
+    { "kanji": "ええ", "romaji": "E E", "english": "yes" },
+    { "kanji": "おい", "romaji": "O I", "english": "hey" },
+    
+    { "kanji": "あう", "romaji": "A U", "english": "to meet" },
+    { "kanji": "いう", "romaji": "I U", "english": "to say" },
+    { "kanji": "うお", "romaji": "U O", "english": "fish" },
+    { "kanji": "えい", "romaji": "E I", "english": "ray (fish)" },
+    { "kanji": "おう", "romaji": "O U", "english": "king" },
+    
+    { "kanji": "あか", "romaji": "A KA", "english": "red" },
+    { "kanji": "いけ", "romaji": "I KE", "english": "pond" },
+    { "kanji": "うか", "romaji": "U KA", "english": "floating" },
+    { "kanji": "えき", "romaji": "E KI", "english": "station" },
+    { "kanji": "おく", "romaji": "O KU", "english": "place" },
+    
+    { "kanji": "かく", "romaji": "KA KU", "english": "to write" },
+    { "kanji": "きく", "romaji": "KI KU", "english": "to listen" },
+    { "kanji": "くき", "romaji": "KU KI", "english": "stem" },
+    { "kanji": "けか", "romaji": "KE KA", "english": "result" },
+    { "kanji": "こか", "romaji": "KO KA", "english": "hardening" },
+    
+    { "kanji": "さけ", "romaji": "SA KE", "english": "sake, salmon" },
+    { "kanji": "しお", "romaji": "SHI O", "english": "salt" },
+    { "kanji": "すし", "romaji": "SU SHI", "english": "sushi" },
+    { "kanji": "せき", "romaji": "SE KI", "english": "cough, seat" },
+    { "kanji": "そこ", "romaji": "SO KO", "english": "bottom" },
+    
+    { "kanji": "たけ", "romaji": "TA KE", "english": "bamboo" },
+    { "kanji": "ちか", "romaji": "CHI KA", "english": "near" },
+    { "kanji": "つき", "romaji": "TSU KI", "english": "moon" },
+    { "kanji": "てつ", "romaji": "TE TSU", "english": "iron" },
+    { "kanji": "とし", "romaji": "TO SHI", "english": "year" },
+    
+    { "kanji": "つけさ", "romaji": "TSU KE SA", "english": "attachment" },
+    { "kanji": "たしき", "romaji": "TA SHI KI", "english": "reliable" },
+    { "kanji": "ちくせき", "romaji": "CHI KU SE KI", "english": "accumulation" },
+    { "kanji": "てつこ", "romaji": "TE TSU KO", "english": "Tetsuko (name)" },
+    { "kanji": "とさき", "romaji": "TO SA KI", "english": "tip, point" },
+    
+    { "kanji": "たすけ", "romaji": "TA SU KE", "english": "help" },
+    { "kanji": "さかし", "romaji": "SA KA SHI", "english": "wisdom" },
+    { "kanji": "くさき", "romaji": "KU SA KI", "english": "plants" },
+    { "kanji": "けつし", "romaji": "KE TSU SHI", "english": "decision" },
+    { "kanji": "としき", "romaji": "TO SHI KI", "english": "Toshiki (name)" },
+    
+    { "kanji": "かたく", "romaji": "KA TA KU", "english": "firmly" },
+    { "kanji": "さつき", "romaji": "SA TSU KI", "english": "Satsuki (name)" },
+    { "kanji": "しけた", "romaji": "SHI KE TA", "english": "damp" },
+    { "kanji": "すすき", "romaji": "SU SU KI", "english": "silver grass" },
+    { "kanji": "けたし", "romaji": "KE TA SHI", "english": "outstanding" },
+    
+    { "kanji": "つたき", "romaji": "TSU TA KI", "english": "ivy-covered" },
+    { "kanji": "ちくさ", "romaji": "CHI KU SA", "english": "Chikusa (place)" },
+    { "kanji": "こしけ", "romaji": "KO SHI KE", "english": "ancestry" },
+    { "kanji": "おくさ", "romaji": "O KU SA", "english": "wife" },
+    { "kanji": "けさき", "romaji": "KE SA KI", "english": "blade tip" },
+
+    { "kanji": "たこ", "romaji": "TA KO", "english": "octopus" },
+    { "kanji": "しけ", "romaji": "SHI KE", "english": "storm" },
+    { "kanji": "くさ", "romaji": "KU SA", "english": "grass" },
+    { "kanji": "さける", "romaji": "SA KE RU", "english": "to avoid" },
+    { "kanji": "としうえ", "romaji": "TO SHI U E", "english": "older person" },
+    { "kanji": "つなみ", "romaji": "TSU NA MI", "english": "tsunami" },
+    { "kanji": "てかみ", "romaji": "TE KA MI", "english": "letter" },
+    { "kanji": "かさ", "romaji": "KA SA", "english": "umbrella" },
+    { "kanji": "そこく", "romaji": "SO KO KU", "english": "homeland" },
+    { "kanji": "ささき", "romaji": "SA SA KI", "english": "Sasaki (name)" }
+]
